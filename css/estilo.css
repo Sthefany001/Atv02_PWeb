@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(156, 233, 233);
+}
+
+#todo{
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.grupo{
+    display: flex;
+}
+
+.form{
+    width: 50%;
+}
+
+.form input[type=text]
+{
+    width: 90%;
+    padding-top: 10px;
+}
+
+.grupo input[type=radio]
+{
+    width: auto;
+}
+
+.radios{
+    width: 46%;
+    padding: 8px;
+    margin: auto;
+    border: 0.06em solid #ccc;
+    margin-right: 4%;
+}
+
+#todo input[type=email]
+{
+    width: 95%;
+    padding-top: 10px;
+}
+
+
+#todo input[type=submit]{
+    background-color: green;
+    color: white;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 95%;
+}
+
+@media screen and (max-width: 650px){
+    body{
+        margin: 0px;
+    }
+}
